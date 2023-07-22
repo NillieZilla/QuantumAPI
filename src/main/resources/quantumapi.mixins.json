@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.pixelmoncreate.quantumapi.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "QuantumAPI.refmap.json",
+  "mixins": [
+    "PLDMixin"
+  ],
+  "client": [
+    "WPFMixin",
+    "WSLMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
